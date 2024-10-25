@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkers</title>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-container"></div>
+
+      <div class="middle-container">
+        <div class="row-input">
+          <p>Row:</p>
+
+          <input
+            class="row-column-input"
+            type="text"
+            placeholder="Insert Row Amount Here!"
+            data-row-input
+          />
+        </div>
+
+        <div class="column-input">
+          <p>Column:</p>
+
+          <input
+            class="row-column-input"
+            type="text"
+            placeholder="Insert Column Amount Here!"
+            data-column-input
+          />
+        </div>
+      </div>
+
+      <div class="bottom-container">
+        <button class="add-button" data-add-button>ADD</button>
+
+        <button class="remove-button" data-remove-button>REMOVE</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
